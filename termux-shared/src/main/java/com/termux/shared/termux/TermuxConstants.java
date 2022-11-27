@@ -587,62 +587,62 @@ public final class TermuxConstants {
 
 
     /** Termux app $PREFIX directory path */
-    public static final String TERMUX_PREFIX_DIR_PATH = TERMUX_FILES_DIR_PATH + "/usr"; // Default: "/data/data/com.termux/files/usr"
+    public static final String TERMUX_PREFIX_DIR_PATH = TERMUX_FILES_DIR_PATH + "/usr"; // Default: "/data/data/com.vmos.pro/osimg/r/ot01/data/data/com.termux/files/usr"
     /** Termux app $PREFIX directory */
     public static final File TERMUX_PREFIX_DIR = new File(TERMUX_PREFIX_DIR_PATH);
 
 
     /** Termux app $PREFIX/bin directory path */
-    public static final String TERMUX_BIN_PREFIX_DIR_PATH = TERMUX_PREFIX_DIR_PATH + "/bin"; // Default: "/data/data/com.termux/files/usr/bin"
+    public static final String TERMUX_BIN_PREFIX_DIR_PATH = TERMUX_PREFIX_DIR_PATH + "/bin"; // Default: "/data/data/com.vmos.pro/osimg/r/ot01/data/data/com.termux/files/usr/bin"
     /** Termux app $PREFIX/bin directory */
     public static final File TERMUX_BIN_PREFIX_DIR = new File(TERMUX_BIN_PREFIX_DIR_PATH);
 
 
     /** Termux app $PREFIX/etc directory path */
-    public static final String TERMUX_ETC_PREFIX_DIR_PATH = TERMUX_PREFIX_DIR_PATH + "/etc"; // Default: "/data/data/com.termux/files/usr/etc"
+    public static final String TERMUX_ETC_PREFIX_DIR_PATH = TERMUX_PREFIX_DIR_PATH + "/etc"; // Default: "/data/data/com.vmos.pro/osimg/r/ot01/data/data/com.termux/files/usr/etc"
     /** Termux app $PREFIX/etc directory */
     public static final File TERMUX_ETC_PREFIX_DIR = new File(TERMUX_ETC_PREFIX_DIR_PATH);
 
 
     /** Termux app $PREFIX/include directory path */
-    public static final String TERMUX_INCLUDE_PREFIX_DIR_PATH = TERMUX_PREFIX_DIR_PATH + "/include"; // Default: "/data/data/com.termux/files/usr/include"
+    public static final String TERMUX_INCLUDE_PREFIX_DIR_PATH = TERMUX_PREFIX_DIR_PATH + "/include"; // Default: "/data/data/com.vmos.pro/osimg/r/ot01/data/data/com.termux/files/usr/include"
     /** Termux app $PREFIX/include directory */
     public static final File TERMUX_INCLUDE_PREFIX_DIR = new File(TERMUX_INCLUDE_PREFIX_DIR_PATH);
 
 
     /** Termux app $PREFIX/lib directory path */
-    public static final String TERMUX_LIB_PREFIX_DIR_PATH = TERMUX_PREFIX_DIR_PATH + "/lib"; // Default: "/data/data/com.termux/files/usr/lib"
+    public static final String TERMUX_LIB_PREFIX_DIR_PATH = TERMUX_PREFIX_DIR_PATH + "/lib"; // Default: "/data/data/com.vmos.pro/osimg/r/ot01/data/data/com.termux/files/usr/lib"
     /** Termux app $PREFIX/lib directory */
     public static final File TERMUX_LIB_PREFIX_DIR = new File(TERMUX_LIB_PREFIX_DIR_PATH);
 
 
     /** Termux app $PREFIX/libexec directory path */
-    public static final String TERMUX_LIBEXEC_PREFIX_DIR_PATH = TERMUX_PREFIX_DIR_PATH + "/libexec"; // Default: "/data/data/com.termux/files/usr/libexec"
+    public static final String TERMUX_LIBEXEC_PREFIX_DIR_PATH = TERMUX_PREFIX_DIR_PATH + "/libexec"; // Default: "/data/data/com.vmos.pro/osimg/r/ot01/data/data/com.termux/files/usr/libexec"
     /** Termux app $PREFIX/libexec directory */
     public static final File TERMUX_LIBEXEC_PREFIX_DIR = new File(TERMUX_LIBEXEC_PREFIX_DIR_PATH);
 
 
     /** Termux app $PREFIX/share directory path */
-    public static final String TERMUX_SHARE_PREFIX_DIR_PATH = TERMUX_PREFIX_DIR_PATH + "/share"; // Default: "/data/data/com.termux/files/usr/share"
+    public static final String TERMUX_SHARE_PREFIX_DIR_PATH = TERMUX_PREFIX_DIR_PATH + "/share"; // Default: "/data/data/com.vmos.pro/osimg/r/ot01/data/data/com.termux/files/usr/share"
     /** Termux app $PREFIX/share directory */
     public static final File TERMUX_SHARE_PREFIX_DIR = new File(TERMUX_SHARE_PREFIX_DIR_PATH);
 
 
     /** Termux app $PREFIX/tmp and $TMPDIR directory path */
-    public static final String TERMUX_TMP_PREFIX_DIR_PATH = TERMUX_PREFIX_DIR_PATH + "/tmp"; // Default: "/data/data/com.termux/files/usr/tmp"
+    public static final String TERMUX_TMP_PREFIX_DIR_PATH = TERMUX_PREFIX_DIR_PATH + "/tmp"; // Default: "/data/data/com.vmos.pro/osimg/r/ot01/data/data/com.termux/files/usr/tmp"
     /** Termux app $PREFIX/tmp and $TMPDIR directory */
     public static final File TERMUX_TMP_PREFIX_DIR = new File(TERMUX_TMP_PREFIX_DIR_PATH);
 
 
     /** Termux app $PREFIX/var directory path */
-    public static final String TERMUX_VAR_PREFIX_DIR_PATH = TERMUX_PREFIX_DIR_PATH + "/var"; // Default: "/data/data/com.termux/files/usr/var"
+    public static final String TERMUX_VAR_PREFIX_DIR_PATH = TERMUX_PREFIX_DIR_PATH + "/var"; // Default: "/data/data/com.vmos.pro/osimg/r/ot01/data/data/com.termux/files/usr/var"
     /** Termux app $PREFIX/var directory */
     public static final File TERMUX_VAR_PREFIX_DIR = new File(TERMUX_VAR_PREFIX_DIR_PATH);
 
 
 
     /** Termux app usr-staging directory path */
-    public static final String TERMUX_STAGING_PREFIX_DIR_PATH = TERMUX_FILES_DIR_PATH + "/usr-staging"; // Default: "/data/data/com.termux/files/usr-staging"
+    public static final String TERMUX_STAGING_PREFIX_DIR_PATH = TERMUX_FILES_DIR_PATH + "/usr-staging"; // Default: "/data/data/com.vmos.pro/osimg/r/ot01/data/data/com.termux/files/usr-staging"
     /** Termux app usr-staging directory */
     public static final File TERMUX_STAGING_PREFIX_DIR = new File(TERMUX_STAGING_PREFIX_DIR_PATH);
 
@@ -660,7 +660,7 @@ public final class TermuxConstants {
     public static final File TERMUX_CONFIG_HOME_DIR = new File(TERMUX_CONFIG_HOME_DIR_PATH);
 
     /** Termux app config $PREFIX directory path */
-    public static final String TERMUX_CONFIG_PREFIX_DIR_PATH = TERMUX_ETC_PREFIX_DIR_PATH + "/termux"; // Default: "/data/data/com.termux/files/usr/etc/termux"
+    public static final String TERMUX_CONFIG_PREFIX_DIR_PATH = TERMUX_ETC_PREFIX_DIR_PATH + "/termux"; // Default: "/data/data/com.vmos.pro/osimg/r/ot01/data/data/com.termux/files/usr/etc/termux"
     /** Termux app config $PREFIX directory */
     public static final File TERMUX_CONFIG_PREFIX_DIR = new File(TERMUX_CONFIG_PREFIX_DIR_PATH);
 
@@ -776,10 +776,10 @@ public final class TermuxConstants {
 
 
     /** Termux app environment file path */
-    public static final String TERMUX_ENV_FILE_PATH = TERMUX_CONFIG_PREFIX_DIR_PATH + "/termux.env"; // Default: "/data/data/com.termux/files/usr/etc/termux/termux.env"
+    public static final String TERMUX_ENV_FILE_PATH = TERMUX_CONFIG_PREFIX_DIR_PATH + "/termux.env"; // Default: "/data/data/com.vmos.pro/osimg/r/ot01/data/data/com.termux/files/usr/etc/termux/termux.env"
 
     /** Termux app environment temp file path */
-    public static final String TERMUX_ENV_TEMP_FILE_PATH = TERMUX_CONFIG_PREFIX_DIR_PATH + "/termux.env.tmp"; // Default: "/data/data/com.termux/files/usr/etc/termux/termux.env.tmp"
+    public static final String TERMUX_ENV_TEMP_FILE_PATH = TERMUX_CONFIG_PREFIX_DIR_PATH + "/termux.env.tmp"; // Default: "/data/data/com.vmos.pro/osimg/r/ot01/data/data/com.termux/files/usr/etc/termux/termux.env.tmp"
 
 
 
